@@ -1,0 +1,9 @@
+{ "name": "bench096",
+  "description": "Socket IO 0.9.6 benchmark ",
+  "version": "0.0.1",
+  "dependencies": {
+    "socket.io":   "0.9.6",
+    "socket.io-client": "0.9.6"
+  },
+ "private":true
+}
