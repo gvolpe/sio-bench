@@ -1,0 +1,20 @@
+Para ejecutar este benchmark se debe tener instalado el paquete nodejs-dev en su versión 0.6.12.
+
+1- Instalar dependencias generales
+
+cd lib/
+sudo npm install
+
+2- Instalar dependencias del benchmark
+
+cd bench/[bench-name]/
+sudo npm install
+
+3- Ejecutar benchmark
+
+sudo node ./siobench.js [environment]
+
+Ejemplo:
+sudo node ./siobench.js 0.9.6
+
+Los entornos están configurados en el archivo environments.js
